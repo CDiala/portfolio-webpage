@@ -3,5 +3,15 @@ nav {
     justify-content: flex-end;
 }
 #welcome-section, #projects {
-    height: 50vh;
+    height: 100vh;
+}
+
+@media  screen and (min-width: 768px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
 }
